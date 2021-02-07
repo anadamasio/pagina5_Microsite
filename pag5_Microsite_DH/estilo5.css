@@ -1,0 +1,68 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+.textos {
+    margin-top: 1.5rem;
+    margin-left: 6rem; 
+}
+
+.texto2 {
+    font-size: 14px;
+    /* color:hsl(227, 47%, 96%); */
+    color: hsl(228, 12%, 44%);
+}
+
+.cartoes1 {
+    padding-top: 1rem;   
+}
+
+.cartao {
+    display: flex;
+    width: 260px;
+    height: 250px;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    border-top-style: solid;
+    background-color:  hsl(227, 47%, 96%);
+}
+
+.cartao1 {
+    border-top-color: hsl(208, 92%, 53%);
+}
+
+.dimensoes {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 5.1rem;
+}
+
+.tituloDimensoes {
+    font-size: 4rem;
+    margin-left: -3.5rem;
+    margin-top: 3.6rem;
+}
+
+.paragrafoDimensoes {
+    margin-top: 8.1rem;
+    margin-left: -8.5rem;
+    letter-spacing: 7.9px;
+}
+
+.dimensoesNumeros {
+    height: 0.3rem;
+    margin-top: 11.5rem;
+    margin-left: -6.5rem;
+    /* margin-right: 1rem; */
+    
+    /* width: 0.5rem; */
+}
+
+.dimensoesNumeros > p {
+    font-size: 12px;
+    margin-top: -0.5rem;
+    /* margin-right: 1rem; */
+    color: hsl(120, 100%, 20%);
+}
