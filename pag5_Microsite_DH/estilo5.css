@@ -15,7 +15,8 @@ body {
 }
 
 .cartoes1 {
-    padding-top: 1rem;   
+    display: flex;
+    padding-top: 1rem;  
 }
 
 .cartao {
@@ -65,4 +66,62 @@ body {
     margin-top: -0.5rem;
     /* margin-right: 1rem; */
     color: hsl(120, 100%, 20%);
+}
+
+/* .dimensoesNumeros > img {
+    fill: hsl(120, 100%, 20%);
+} */
+
+.cartao2 {
+    margin-left: 1.5rem;
+    border-top-color: hsl(203, 89%, 53%);
+}
+
+.cartao3 {
+    margin-left: 1.5rem;
+    border-top-color: 5px solid linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%)) !important;
+}
+
+.cartao4 {
+    margin-left: 1.5rem;
+    border-top-color: hsl(348, 97%, 39%);
+}
+
+/* Segunda parte */
+.cartoes2 {
+    display: flex;
+    margin-left: 6rem;
+    width: 260px;
+    height: 145px;
+    background-color:  hsl(227, 47%, 96%);
+}
+
+
+.paragrafo {
+    /* font-size: 14px; */
+    color:  hsl(228, 12%, 44%);
+    
+}
+
+.ajustes {
+    margin-top: 4.9rem;
+    margin-left: -3rem;
+    margin-left: -12rem;
+} 
+
+.dimensoes2 {
+    margin-top: 6.9rem;
+    margin-left: 7rem;
+}
+
+.cores {
+    color: hsl(120, 100%, 20%);
+    font-size: 12px;
+    margin-top: -0.4rem;
+    margin-left: 0.1rem;
+
+}
+
+.outraFila {
+    margin-top: 1rem;
 }
