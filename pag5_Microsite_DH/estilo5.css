@@ -78,6 +78,7 @@ body {
     border-top-color: hsl(348, 97%, 39%);
 }
 
+
 /* Segunda parte */
 .cartoes2 {
     display: flex;
@@ -115,7 +116,13 @@ body {
     margin-top: 1rem;
 }
 
+
 /*botão*/
+
+.botao {
+    margin-left: 65rem;
+    margin-top: -2rem;
+}
 
 .darkModeLabel {
     margin: auto 0.8rem;
@@ -179,7 +186,6 @@ body {
     background: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   }
   
-  /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
   }
