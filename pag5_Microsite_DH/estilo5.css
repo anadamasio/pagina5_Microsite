@@ -10,7 +10,6 @@ body {
 
 .texto2 {
     font-size: 14px;
-    /* color:hsl(227, 47%, 96%); */
     color: hsl(228, 12%, 44%);
 }
 
@@ -56,21 +55,13 @@ body {
     height: 0.3rem;
     margin-top: 11.5rem;
     margin-left: -6.5rem;
-    /* margin-right: 1rem; */
-    
-    /* width: 0.5rem; */
 }
 
 .dimensoesNumeros > p {
     font-size: 12px;
     margin-top: -0.5rem;
-    /* margin-right: 1rem; */
     color: hsl(120, 100%, 20%);
 }
-
-/* .dimensoesNumeros > img {
-    fill: hsl(120, 100%, 20%);
-} */
 
 .cartao2 {
     margin-left: 1.5rem;
@@ -98,14 +89,12 @@ body {
 
 
 .paragrafo {
-    /* font-size: 14px; */
     color:  hsl(228, 12%, 44%);
     
 }
 
 .ajustes {
     margin-top: 4.9rem;
-    margin-left: -3rem;
     margin-left: -12rem;
 } 
 
@@ -124,4 +113,94 @@ body {
 
 .outraFila {
     margin-top: 1rem;
+}
+
+/*botão*/
+
+.darkModeLabel {
+    margin: auto 0.8rem;
+    font-weight: 700;
+    color: hsl(228, 12%, 44%);
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 57px;
+    height: 28px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(230, 22%, 74%);
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+  
+  input:checked + .slider {
+    background: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-color: hsl(230, 17%, 14%);
+  }
+  
+  input:hover + .slider {
+    background: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+@media only screen and (max-width: 376px) {
+    .cartoes1 {
+        display: block;
+        }
+    
+    .cartao {
+        margin-left: 3.3rem;
+    }
+
+    .cartoes2 {
+        display: block;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+    
 }
